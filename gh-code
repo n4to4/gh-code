@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-exec code $(ls -d ~/dev/src/github.com/*/* | fzf)
+exec code $(ls -d ~/dev/src/github.com/*/* | fzf) "$@"
